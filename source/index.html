@@ -1,0 +1,33 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm',{"active" : "intro"})
+
+<!-- box-intro -->
+<section class="box-intro">
+  <div class="table-cell">
+    <h1 class="box-headline letters rotate-2">
+      <span class="box-words-wrapper">
+        <b class="is-visible">design.</b>
+        <b>&nbsp;coding.</b>
+        <b>graphic.</b>
+      </span>
+    </h1>
+    <h5>everything you need to build your personal portfolio</h5>
+  </div>
+
+  <div class="mouse">
+    <div class="scroll"></div>
+  </div>
+</section>
+<!-- end box-intro -->
+
+<!-- portfolio div -->
+<div class="portfolio-div">
+  <div class="portfolio">
+    @@include('blocks/portfolio-container.htm')
+  </div>
+  <!-- portfolio -->
+</div>
+<!-- end portfolio div -->
+
+@@include('footer.htm')

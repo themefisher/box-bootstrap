@@ -1,0 +1,68 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm',{"active" : "contact"})
+@@include('blocks/page-header.htm',{"title" : "Contact"})
+
+<!-- main-container -->
+<div class="main-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form class="pr-0 pr-lg-4" action="#" method="post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="input-contact">
+                <input type="text" name="name" required>
+                <span>your name</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-contact">
+                <input type="text" name="email" required>
+                <span>your email</span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="input-contact">
+                <input type="text" name="object" required>
+                <span>object</span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="textarea-contact">
+                <textarea name="message" required></textarea>
+                <span>message</span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-box">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    
+      <div class="col-lg-6 mt-5 mt-lg-0">
+        <h3 class="text-uppercase">contact me</h3>
+        <h5>Creative & Lorem ipsum dolor sit amet</h5>
+        <div class="h-30"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite
+          autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri
+          amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis
+          aditus </p>
+        <div class="contact-info">
+          <p><i class="ion-android-call"></i> 0100 787 3456</p>
+          <p><i class="ion-ios-email"></i> box@info.com</p>
+        </div>
+      </div>
+
+      <div class="col-12 mt-5">
+        <div class="google-map">
+          <div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Megakit"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end main-container -->
+
+@@include('footer.htm')

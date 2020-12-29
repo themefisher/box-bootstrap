@@ -1,0 +1,33 @@
+<!-- box header -->
+<header class="box-header">
+  <div class="box-logo">
+    <a href="index.html"><img loading="lazy" src="images/logo.png" width="80" alt="Logo"></a>
+  </div>
+  <!-- box-nav -->
+  <span class="box-primary-nav-trigger">
+    <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+  </span>
+  <!-- box-primary-nav-trigger -->
+</header>
+<!-- end box header -->
+
+<!-- nav -->
+<nav>
+  <ul class="box-primary-nav">
+    <li class="box-label">About me</li>
+
+    <li @@if( active === 'intro' ){class="active"}><a href="index.html">Intro</a></li>
+    <li @@if( active === 'about' ){class="active"}><a href="about.html">About me</a></li>
+    <li @@if( active === 'service' ){class="active"}><a href="services.html">services</a></li>
+    <li @@if( active === 'portfolio' ){class="active"}><a href="portfolio.html">portfolio</a></li>
+    <li @@if( active === 'contact' ){class="active"}><a href="contact.html">contact me</a></li>
+
+    <li class="box-label">Follow me</li>
+
+    <li class="box-social"><a href="https://themefisher.com/"><i class="ion-social-facebook"></i></a></li>
+    <li class="box-social"><a href="https://themefisher.com/"><i class="ion-social-instagram-outline"></i></a></li>
+    <li class="box-social"><a href="https://themefisher.com/"><i class="ion-social-twitter"></i></a></li>
+    <li class="box-social"><a href="https://themefisher.com/"><i class="ion-social-dribbble"></i></a></li>
+  </ul>
+</nav>
+<!-- end nav -->

@@ -1,0 +1,35 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm',{"active" : "portfolio"})
+@@include('blocks/page-header.htm',{"title" : "Portfolio"})
+
+<!-- main container -->
+<div class="main-container portfolio-inner">
+  <!-- portfolio div -->
+  <div class="portfolio-div">
+    <div class="portfolio">
+      <!-- portfolio_filter -->
+      <div class="categories-grid wow fadeInLeft">
+        <nav class="categories text-center">
+          <ul class="portfolio_filter">
+            <li><a href="" class="active" data-filter="*">All</a></li>
+            <li><a href="" data-filter=".photography">Photography</a></li>
+            <li><a href="" data-filter=".logo">Logo</a></li>
+            <li><a href="" data-filter=".graphics">Graphics</a></li>
+            <li><a href="" data-filter=".ads">Advertising</a></li>
+            <li><a href="" data-filter=".fashion">Fashion</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- portfolio_filter -->
+
+      @@include('blocks/portfolio-container.htm')
+
+    </div>
+    <!-- portfolio -->
+  </div>
+  <!-- end portfolio div -->
+</div>
+<!-- end main container -->
+
+@@include('footer.htm')
