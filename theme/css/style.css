@@ -693,35 +693,23 @@ b i:last-child {
   display: inline-block;
 }
 
-.portfolio .categories-grid .categories ul li {
-  list-style: none;
-  margin: 20px 0;
-}
-
-.portfolio .categories-grid .categories ul li a {
+.portfolio .categories-grid .categories label {
   display: inline-block;
   color: #60606e;
-  padding: 0 10px;
+  padding: 4px 10px;
   margin: 0 10px;
   transition: all .2s ease-in-out .2s;
+  margin-bottom: 10px;
 }
 
-.portfolio .categories-grid .categories ul li a:hover,
-.portfolio .categories-grid .categories ul li a:focus {
-  text-decoration: none;
-}
-
-.portfolio .categories-grid .categories ul li a.active {
+.portfolio .categories-grid .categories label:focus,
+.portfolio .categories-grid .categories label.active {
   margin-left: 0;
   background-color: #ffbf00;
-  padding: 0px 20px;
+  padding: 4px 20px;
   color: white;
   border-radius: 25px;
-  text-decoration: none;
-}
-
-.portfolio_filter {
-  padding-left: 0;
+  box-shadow: none;
 }
 
 .portfolio_item {

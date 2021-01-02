@@ -102,162 +102,160 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="portfolio">
       <!-- portfolio_filter -->
       <div class="categories-grid wow fadeInLeft">
-        <nav class="categories text-center">
-          <ul class="portfolio_filter">
-            <li><a href="" class="active" data-filter="*">All</a></li>
-            <li><a href="" data-filter=".photography">Photography</a></li>
-            <li><a href="" data-filter=".logo">Logo</a></li>
-            <li><a href="" data-filter=".graphics">Graphics</a></li>
-            <li><a href="" data-filter=".ads">Advertising</a></li>
-            <li><a href="" data-filter=".fashion">Fashion</a></li>
-          </ul>
+        <nav class="categories text-center mb-4">
+          <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
+            <label class="btn active">
+              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="photography" />Photography
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="logo" />Logo
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="graphics" />Graphics
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="ads" />Advertising
+            </label>
+            <label class="btn">
+              <input type="radio" name="shuffle-filter" value="fashion" />Fashion
+            </label>
+          </div>
         </nav>
       </div>
       <!-- portfolio_filter -->
 
       <!-- portfolio_container -->
-<div class="row no-gutters portfolio_container">
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 fashion logo">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/01.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mockups in seconds</span>
-          <em>Fashion / Logo</em>
+      <div class="row no-gutters shuffle-wrapper">
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;fashion&quot;,&quot;logo&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/01.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Mockups in seconds</span>
+                <em>Fashion / Logo</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 ads graphics">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/03.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Floating mockups</span>
-          <em>Ads / Graphics</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;ads&quot;,&quot;graphics&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/03.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Floating mockups</span>
+                <em>Ads / Graphics</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-sm-6 photography">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/02.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Photorealistic smartwatch</span>
-          <em>Photography</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;photography&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/02.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Photorealistic smartwatch</span>
+                <em>Photography</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 fashion ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/04.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Held by hands</span>
-          <em>Fashion / Ads</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;fashion&quot;,&quot;ads&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/04.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Held by hands</span>
+                <em>Fashion / Ads</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 graphics ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/05.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mobile devices</span>
-          <em>Graphics / Ads</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;graphics&quot;,&quot;ads&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/05.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Mobile devices</span>
+                <em>Graphics / Ads</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-sm-6 photography">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/010.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Photorealistic smartwatch</span>
-          <em>Photography</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;photography&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/010.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Photorealistic smartwatch</span>
+                <em>Photography</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 graphics ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/06.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mobile devices</span>
-          <em>Graphics / Ads</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;graphics&quot;,&quot;ads&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/06.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Mobile devices</span>
+                <em>Graphics / Ads</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 graphics ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/07.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mobile devices</span>
-          <em>Graphics / Ads</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;graphics&quot;,&quot;ads&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/07.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Mobile devices</span>
+                <em>Graphics / Ads</em>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
+        <!-- end single work -->
 
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 graphics ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/08.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mobile devices</span>
-          <em>Graphics / Ads</em>
+        <!-- single work -->
+        <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;graphics&quot;,&quot;ads&quot;]">
+          <a href="single-project.html" class="portfolio_item">
+            <img src="images/portfolio/08.jpg" alt="image" class="img-fluid" />
+            <div class="portfolio_item_hover">
+              <div class="item_info">
+                <span>Mobile devices</span>
+                <em>Graphics / Ads</em>
+              </div>
+            </div>
+          </a>
         </div>
+        <!-- end single work -->
       </div>
-    </a>
-  </div>
-  <!-- end single work -->
-
-  <!-- single work -->
-  <div class="col-lg-3 col-sm-6 graphics ads">
-    <a href="single-project.html" class="portfolio_item">
-      <img src="images/portfolio/09.jpg" alt="image" class="img-fluid" />
-      <div class="portfolio_item_hover">
-        <div class="item_info">
-          <span>Mobile devices</span>
-          <em>Graphics / Ads</em>
-        </div>
-      </div>
-    </a>
-  </div>
-  <!-- end single work -->
-</div>
-<!-- end portfolio_container -->
+      <!-- end portfolio_container -->
 
     </div>
     <!-- portfolio -->
@@ -286,7 +284,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <script src="plugins/menu.js"></script>
 <script src="plugins/animated-headline/animated-headline.js"></script>
-<script src="plugins/isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
 
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>

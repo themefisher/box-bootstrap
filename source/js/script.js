@@ -6,28 +6,22 @@ $(window).on('load', function () {
   $('body').css({
     'overflow': 'visible'
   });
-
-
-  //  isotope
-  var $container = $('.portfolio_container');
-  $container.isotope({
-    filter: '*'
-  });
-
-  $('.portfolio_filter a').click(function () {
-    $('.portfolio_filter .active').removeClass('active');
-    $(this).addClass('active');
-
-    var selector = $(this).attr('data-filter');
-    $container.isotope({
-      filter: selector,
-      animationOptions: {
-        duration: 500,
-        animationEngine: 'jquery'
-      }
-    });
-    return false;
-  });
+  
+  // Shuffle js filter and masonry
+	var containerEl = document.querySelector('.shuffle-wrapper');
+	if (containerEl) {
+		var Shuffle = window.Shuffle;
+		var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
+			itemSelector: '.shuffle-item',
+			buffer: 1
+		});
+		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
+			var input = evt.currentTarget;
+			if (input.checked) {
+				myShuffle.filter(input.value);
+			}
+		});
+	}
 
   // back to top
   var offset = 300,
