@@ -69,3 +69,12 @@ Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.
 **Code License:** Released under the [MIT](https://github.com/themefisher/Box-Personal-Portfolio-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
+
+<!-- resources -->
+## Resources
+Some third-party plugins that we used to build this template. Please check their licence.
+* **Bootstrap v4.5**: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* **Jquery v3.5.1**: https://jquery.com/download/
+* **Ionicons Icons v2.0**: https://ionicons.com/v2/
+* **Google Fonts**: http://fonts.google.com/
+* **Shuffle**: https://vestride.github.io/Shuffle/
