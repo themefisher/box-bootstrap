@@ -12,6 +12,15 @@ Box is clean bootstrap portfolio template by Thermefisher. It comes simple, easy
 
 👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/box/)
 
+<!-- resources -->
+## Pages
+* **Homepage**
+* **About**
+* **Service**
+* **Portfilo**
+* **Portfilo Details**
+* **Contact**
+
 
 <!-- download -->
 ## Download And installation
